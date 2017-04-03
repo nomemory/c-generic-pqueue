@@ -36,7 +36,7 @@ PQueue *pqueue_new(int (*cmp)(const void *d1, const void *d2),
 * De-allocates memory for a given Priority Queue structure .
 */
 void pqueue_delete(PQueue *q) {
-    if (NULL != q) {
+    if (NULL == q) {
         DEBUG("Priority Queue is already NULL. Nothing to free.");
         return;
     }
