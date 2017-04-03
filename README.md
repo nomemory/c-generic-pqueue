@@ -1,7 +1,8 @@
-# c-generic-pqueue
+# Generic Priority Queue in C
 
-"Academical" implementation of a priority queue in C, nothing fancy.
-I guess i (re-did) this to keep my skills sharp.
+"Academical" implementation of a priority queue in old C, nothing fancy.
+
+I guess I (re)did this to keep my CS skills sharp.
 
 ### How it works.
 
