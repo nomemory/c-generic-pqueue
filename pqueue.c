@@ -29,6 +29,7 @@ PQueue *pqueue_new(int (*cmp)(const void *d1, const void *d2),
     res->data = malloc(capacity * sizeof(*(res->data)));
     NP_CHECK(res->data);
     res->size = 0;
+    res->capacity = capacity;
     return (res);
 }
 
